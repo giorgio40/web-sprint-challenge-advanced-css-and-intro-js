@@ -231,27 +231,29 @@ Create a function called `getArtistByIndex` that takes two arguments:
 */
 function getArtistByIndex(Array, number) {
     for (let i = 0; i < array.length; i++) {
-        if (array[i]) {
+        return `The artist at index [i] is ${this.name}`;
+
+    }
+}
+(getArtistsByIndex(artists, [7]))
+
+/* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
+Create a function called get20s() 
+it takes one argument of data
+it returns an array with names of artists who were born in and died in 20th century (1900-2000) 
+example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included
+If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
+
+function get20s(artist) {
+    for (let index = 0; index < array.length; index++) {
+        if (years >= == 1900 & years <= == 2000) {
+            return artist
 
         }
 
-
-
     }
-
 }
-console.log([i])
-    /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
-    Create a function called get20s() 
-    it takes one argument of data
-    it returns an array with names of artists who were born in and died in 20th century (1900-2000) 
-    example born in 1901 and died in 1959 - included / born in 1889 and died in 1925 not included
-    If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
-
-function get20s( /*Your Code Here*/ ) {
-    /*Your Code Here*/
-}
-
+console.log(get20s)
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
