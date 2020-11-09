@@ -309,7 +309,7 @@ function addArtist() {
 
 
 }
-// addArtist();
+
 // console.log((artists));
 
 
